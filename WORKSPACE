@@ -15,11 +15,10 @@ pip_dependencies()
 # This macro takes name, packages, extra_index
 pex_requirements('analyze_personality', packages=[
     'matplotlib==2.0.0',
-    'requests==2.9.1',
-    'pandas==0.20.3',
+    'requests==2.9.1'
 
 
 ])
 pex_requirements('get_tweets', packages=[
-    'python-twitter'
+    'python-twitter==3.2.1'
 ])
